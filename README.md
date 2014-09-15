@@ -14,7 +14,7 @@ that file to the project's [Github](https://www.github.com) repo.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'heroku_secrets'
+gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
 ```
 
 And then execute:
