@@ -1,32 +1,39 @@
 # HerokuSecrets
 
-TODO: Write a gem description
+__Heroku Secrets__ is a gem written by 
+[Alex Peattie](https://github.com/alexpeattie/heroku_secrets).
+
+The gem enables users to send the content of a [Rails](http://rubyonrails.org) 
+project's `secrets.yml` file directly to the `deployment environment` 
+on [Heroku](https://www.heroku.com) without the need to push 
+that file to the project's [Github](https://www.github.com) repo.
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'heroku_secrets'
+```ruby
+gem 'heroku_secrets'
+```
 
 And then execute:
 
-    $ bundle
+```bash
+$> bundle install
+```
 
 Or install it yourself as:
 
-    $ gem install heroku_secrets
+```bash
+$> gem install heroku_secrets
+```
 
 ## Usage
 
 To push secrets to Heroku in Rails:
 
-```sh
-bin/rake heroku:secrets RAILS_ENV=production
+```bash
+$> bin/rake heroku:secrets RAILS_ENV=production
 ```
-## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
