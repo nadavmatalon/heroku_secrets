@@ -1,4 +1,4 @@
-# HerokuSecrets
+# Heroku Secrets
 
 __Heroku Secrets__ is a gem written by 
 [Alex Peattie](https://github.com/alexpeattie/heroku_secrets).
